@@ -1,5 +1,15 @@
-# GEM_PFA_Draw_Toolkit
+### GEM_PFA_Draw_Toolkit
 Toolkit for Draw plots of GEM PFA for CMS
+
+### Get root file from GEM machine
+ssh -XtY huangh@lxplus.cern.ch
+ssh -XtY huangh@cmsusr
+
+ssh -XtY gem-dqm01
+
+cp /gemdata/GEMINImXXLY/scurve/<Date>/SCurveFitData.root XXLY.root
+  
+### Draw plots
 
 noise_full_good_position.C is to Draw 2D plots of noise vs. 24 chambers.
 
