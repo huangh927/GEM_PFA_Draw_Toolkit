@@ -10,3 +10,5 @@ Ratio_full.C is to Draw 1D plots of N vs. chi2/ndf.
 trim_full.C is to Draw 2D plots of trimDAC vs. trimRange, you could change the "maskReason" cut to draw which plots you need.
 
 trimDAC_full_N.C is to draw 1D plots of N vs. trimDAC, which has been normalized to 1 event.
+
+trimRange_full_N.C is to draw 1D plots of N vs. trimRange, which has been normalized to 1 event.
